@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js Environment
         uses: actions/setup-node@v6
         with:
-          node-version-file: package.json
+          node-version-file: .nvmrc
 
       - name: Validate Renovate Config
         run: pnpm validate
