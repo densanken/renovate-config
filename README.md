@@ -38,13 +38,22 @@ CCS で用いる [Renovate](https://docs.renovatebot.com/) の設定です。
 - extends
   - 既存プリセットを順に適用します。配列の後ろに書いたプリセットほど後から上書きされます。
   - プリセットの考え方: https://docs.renovatebot.com/key-concepts/presets/
-  - 利用可能なプリセット一覧:
+  - プリセット例:
     - config presets: https://docs.renovatebot.com/presets-config/
     - default presets: https://docs.renovatebot.com/presets-default/
+    - security presets: https://docs.renovatebot.com/presets-security/
 
   - `config:recommended`
     - Renovate の推奨プリセットを適用します。
     - https://docs.renovatebot.com/presets-config/#configrecommended
+
+  - `security:openssf-scorecard`
+    - PR の本文に OpenSSF Scorecard のバッジを表示します。
+    - https://docs.renovatebot.com/presets-security/#securityopenssf-scorecard
+
+  - `security:minimumReleaseAgeNpm`
+    - npm パッケージの更新について、リリースから3日経過するまで更新 PR を作成しないようにします。
+    - https://docs.renovatebot.com/presets-security/#securityminimumreleaseagenpm
 
   - `:semanticCommits`
     - Renovate が作成するコミットメッセージやPR タイトルを semantic commits（Conventional Commits）形式にします。
