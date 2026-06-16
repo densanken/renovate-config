@@ -14,10 +14,18 @@
   "automergeStrategy": "squash",
   "dependencyDashboard": true,
   "branchConcurrentLimit": 0,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["lockFileMaintenance"],
+      "addLabels": ["lock-file-maintenance"]
     }
   ]
 }
