@@ -1,0 +1,7 @@
+minimumReleaseAge: 4320 # 3 days
+minimumReleaseAgeStrict: true
+allowBuilds:
+  core-js-pure: false
+  dtrace-provider: false
+  protobufjs: false
+  re2: false
