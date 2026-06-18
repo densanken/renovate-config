@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>densanken/renovate-config"],
+  "packageRules": [
+    {
+      "matchDatasources": ["jsr"],
+      "minimumReleaseAge": "3 days",
+      "internalChecksFilter": "strict"
+    }
+  ]
+}
