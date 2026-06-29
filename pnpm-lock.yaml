@@ -13,7 +13,7 @@ importers:
         version: 3.8.4
       renovate:
         specifier: ^43.220.0
-        version: 43.243.1(typanion@3.14.0)
+        version: 43.243.2(typanion@3.14.0)
 
 packages:
 
@@ -1008,8 +1008,8 @@ packages:
     resolution: {integrity: sha512-HWcBoN6NileqtSydK2FqHbS/LoDd2pqrnQHLyJzBj4kOp/ky2MWMN694xOfkK8/SnUsW2DH7EfyVlydKCsm1Zw==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.48.1:
-    resolution: {integrity: sha512-wfnXlwd5I75eXRtdD2vuEs50xHHESECDsGD7yiQnfFVNoa5522NwXEbmgo98LfiukSQHs+mBM7/YG3qKJB9/mQ==}
+  es-toolkit@1.49.0:
+    resolution: {integrity: sha512-G5iZ6Pc/FNRY/soKZHC+TxGDD83rHUDXxzaWhGCX44vAv/tMs56WMusnm/KMNK+luUPsgA9U28cGr4RDlSzL2g==}
 
   es6-error@4.1.1:
     resolution: {integrity: sha512-Um/+FxMr9CISWh0bi5Zv0iOD+4cFh5qLeks1qhAopKVAJw3drgKbKySikp7wGhDL0HPeaja0P5ULZrxLkniUVg==}
@@ -1918,8 +1918,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.243.1:
-    resolution: {integrity: sha512-jvblZXQu9deJi04EF23U7cJAgJFAcJCAi+X6AtCZ5T0gqWNR34fC+SWxTFFDUBc3q1nYCMPZYFhUIRlMeiy9Kg==}
+  renovate@43.243.2:
+    resolution: {integrity: sha512-pJE/U4tVjp2WBpdC7yhrj1G4oipp8ZcChDwaBU8Iyauae4D27YwSXMgyXXrlOGxKlOcX2tbC7enhVRqEn5Ef4g==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3166,7 +3166,7 @@ snapshots:
       cross-spawn: 7.0.6
       diff: 5.2.2
       dotenv: 16.6.1
-      es-toolkit: 1.48.1
+      es-toolkit: 1.49.0
       fast-glob: 3.3.3
       got: 11.8.6
       hpagent: 1.2.0
@@ -3551,7 +3551,7 @@ snapshots:
     dependencies:
       es-errors: 1.3.0
 
-  es-toolkit@1.48.1: {}
+  es-toolkit@1.49.0: {}
 
   es6-error@4.1.1: {}
 
@@ -4671,7 +4671,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.243.1(typanion@3.14.0):
+  renovate@43.243.2(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
