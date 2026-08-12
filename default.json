@@ -4,6 +4,7 @@
     "config:recommended",
     "security:openssf-scorecard",
     "security:minimumReleaseAgeNpm",
+    "customManagers:biomeVersions",
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)",
     ":disableRateLimiting",
