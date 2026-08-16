@@ -13,7 +13,7 @@ importers:
         version: 3.9.6
       renovate:
         specifier: ^44.0.0
-        version: 44.27.0(supports-color@7.2.0)(typanion@3.14.0)
+        version: 44.29.1(supports-color@7.2.0)(typanion@3.14.0)
 
 packages:
 
@@ -1115,10 +1115,6 @@ packages:
     resolution: {integrity: sha512-eAmLkjDjAFCVXg7A1unxHsLf961m6y17QFqXqAXGj/gVkKFrEICfStRfwUlGNfeCEjNRa32JEWOUTlYXPyyKvA==}
     engines: {node: '>=14'}
 
-  google-logging-utils@1.2.0:
-    resolution: {integrity: sha512-WE9av4wKDZgRjBwgVUabocx8T6/7o3Ca1Fat46FXDhXVAFibzNadedcOXrdgd1Kzmk8tsk/9ZH89Wyf/SqeZ3A==}
-    engines: {node: '>=18'}
-
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
@@ -1849,8 +1845,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.27.0:
-    resolution: {integrity: sha512-sFrhIkoB7z/7cBW1NCweCQD8VnB36GEhhQHaDf/3B8Xry7jcp2KLjg6Ic/sOrHQ0KXCddfUAmkBigA8G45Ru1w==}
+  renovate@44.29.1:
+    resolution: {integrity: sha512-FuliQNvWSe2Jqw+LtB38/qAshzP468vedR6hMoCFWU5Oxe7fsxsvWhPaaqDpKvJFJAt3SlI6Kkx5ImZImRX54A==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3478,7 +3474,7 @@ snapshots:
   gcp-metadata@8.1.2(supports-color@7.2.0):
     dependencies:
       gaxios: 7.3.1(supports-color@7.2.0)
-      google-logging-utils: 1.2.0
+      google-logging-utils: 1.1.3
       json-bigint: 1.0.0
     transitivePeerDependencies:
       - supports-color
@@ -3585,8 +3581,6 @@ snapshots:
       - supports-color
 
   google-logging-utils@1.1.3: {}
-
-  google-logging-utils@1.2.0: {}
 
   gopd@1.2.0: {}
 
@@ -4473,7 +4467,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.27.0(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.29.1(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1095.0
       '@aws-sdk/client-ec2': 3.1095.0
