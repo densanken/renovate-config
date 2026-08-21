@@ -13,7 +13,7 @@ importers:
         version: 3.9.6
       renovate:
         specifier: ^44.0.0
-        version: 44.32.5(supports-color@7.2.0)(typanion@3.14.0)
+        version: 44.33.2(supports-color@7.2.0)(typanion@3.14.0)
 
 packages:
 
@@ -1217,8 +1217,8 @@ packages:
     resolution: {integrity: sha512-IBTdIkzZNOpqm7q3dRqJvMaldXjDHWkEDfrwGEQTs5eaQMWV+djAhR+wahyNNMAa+qpbDUhBMVt4ZKNwpPm7xQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
-  install-artifact-from-github@1.7.0:
-    resolution: {integrity: sha512-qAb91yAKVF9rFY4rVP21ZtYUyCScxAFt9udwzVWNLBE1pQcdQeB2gd1HlNPcQNYCzCDvJ/QJQPuWQ6aTmSlU8g==}
+  install-artifact-from-github@1.8.0:
+    resolution: {integrity: sha512-EA861BGTOO91yuymA5V6Sx//J5471NBpMHnVZJetquqOYknm4zz25Y2tk/f74ggxerqtd8nfBrn9eaR0oxReEA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1849,8 +1849,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.32.5:
-    resolution: {integrity: sha512-YYYNLahHQIcG1jGcz1fG7yoorz32VzWchQi1nClpAHlFbBJ/tJ++O9phMLwBneAUBJrqjNKhGrzuzO2cF64nhw==}
+  renovate@44.33.2:
+    resolution: {integrity: sha512-rmMaQH4jTLrVZKCYehHr2k8baYqhtoNepLHhnQ+vva8cuFbcM7PUNOJFrlXBZE/Srqv+Ck5g4Xw7yfkEBFXvSw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3710,7 +3710,7 @@ snapshots:
 
   ini@6.0.0: {}
 
-  install-artifact-from-github@1.7.0:
+  install-artifact-from-github@1.8.0:
     optional: true
 
   is-arrayish@0.2.1: {}
@@ -4419,7 +4419,7 @@ snapshots:
 
   re2@1.26.1:
     dependencies:
-      install-artifact-from-github: 1.7.0
+      install-artifact-from-github: 1.8.0
       nan: 2.28.0
       node-gyp: 13.0.1
     optional: true
@@ -4473,7 +4473,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.32.5(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.33.2(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1095.0
       '@aws-sdk/client-ec2': 3.1095.0
