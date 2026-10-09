@@ -17,6 +17,17 @@ CCS で用いる [Renovate](https://docs.renovatebot.com/) の設定です。
 
 `renovate.json` を main ブランチに反映後、[Renovate App](https://github.com/apps/renovate) をリポジトリに設定する必要があります。
 
+### プロジェクトに合わせた設定
+
+上記 `renovate.json` の `extends` を、用途に合わせて表の値に置き換えてください。
+いずれの場合も [設定内容](#設定内容) は共通で適用されます。
+
+| 用途                          | `extends` の値                            | 追加される動作                                                                  |
+| ----------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------- |
+| 通常                          | `github>densanken/renovate-config`        | なし                                                                            |
+| Deno を使う                   | `github>densanken/renovate-config:deno`   | npm と同様に、JSR パッケージの更新 PR もリリースから3日経過後に作成             |
+| 更新 PR の処理を週1回にしたい | `github>densanken/renovate-config:weekly` | PR の作成・更新・自動マージを月曜日（日本時間）に限定（脆弱性対応 PR は対象外） |
+
 ### 設定のカスタマイズ
 
 最小限のカスタマイズで問題ない場合、上記設定後にカスタマイズしたい項目を追記することで設定の上書きが可能です。
