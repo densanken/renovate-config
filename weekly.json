@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>densanken/renovate-config"],
+  "schedule": ["* * * * 1"],
+  "updateNotScheduled": false,
+  "lockFileMaintenance": {
+    "schedule": ["* * * * 1"]
+  }
+}
